@@ -55,7 +55,7 @@ public class Contact
                 case 2:
                     if (ll.isEmpty())
                     {
-                        l.info("the phone Directory is empty");
+                        l.info("empty directory");
                         break;
                     }
                     else {
@@ -117,7 +117,7 @@ public class Contact
                 case 4:
                     if (ll.isEmpty())
                     {
-                        l.info("the phone Directory is empty");
+                        l.info("There is no contacts to display");
                     }
                     else
                     {
