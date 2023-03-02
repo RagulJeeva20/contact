@@ -63,7 +63,8 @@ public class Contact
                         l.info("Enter a phone number to delete");
                         String checknum = s.next();
                         int b = 0;
-                        while (true)
+                        int loop1=0;
+                        while (loop==0)
                         {
                             for (Phdirectory element : ll)
                             {
@@ -73,6 +74,7 @@ public class Contact
                                     ll.remove(index);
                                     l.info("your contact has been removed");
                                     b++;
+                                    loop1++;
                                     break;
                                 }
                             }
