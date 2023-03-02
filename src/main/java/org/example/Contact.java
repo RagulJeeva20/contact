@@ -94,16 +94,18 @@ public class Contact
                     }
                     else {
                         l.info("Enter the phone number to Search");
-                        String delnum = s.next();
+                        String searchnum = s.next();
                         int c = 0;
-                        while (true)
+                        int loop=0;
+                        while (loop==0)
                         {
                             for (Phdirectory element : ll)
                             {
-                                if (element.ph.equals(delnum))
+                                if (element.ph.equals(searchnum))
                                 {
                                     l.log(Level.INFO, () -> "Name:" + element.name + "\nPhone Number:" + element.ph + "\nEmail" + element.email);
                                     c++;
+                                    loop++;
                                     break;
                                 }
                             }
