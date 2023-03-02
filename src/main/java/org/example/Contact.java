@@ -64,7 +64,7 @@ public class Contact
                         String checknum = s.next();
                         int b = 0;
                         int loop1=0;
-                        while (loop==0)
+                        while (loop1==0)
                         {
                             for (Phdirectory element : ll)
                             {
